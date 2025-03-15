@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#pokemonList {
+    margin: 20px 0;
+}
+
+.pokemon-item {
+    cursor: pointer;
+    color: blue;
+}
+
+.pokemon-item:hover {
+    text-decoration: underline;
+}
+
+#pokemonInfo {
+    margin-top: 20px;
+}
+
+#pagination {
+    margin-top: 20px;
+}
