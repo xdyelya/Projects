@@ -1,0 +1,15 @@
+.task-column {
+    min-height: 200px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.task {
+    background-color: #ffffff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

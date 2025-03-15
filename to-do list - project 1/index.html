@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">create new to do:</span>
+            </div>
+            <input type="text" id="new-task" class="form-control" placeholder="Введите задачу">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="add-task">Add</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <h2 class="border border-dark p-2">To Do</h2>
+                <div id="to-do" class="task-column"></div>
+            </div>
+            <div class="col">
+                <h2 class="border border-dark p-2">In Progress</h2>
+                <div id="in-progress" class="task-column"></div>
+            </div>
+            <div class="col">
+                <h2 class="border border-dark p-2">Done</h2>
+                <div id="done" class="task-column"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
